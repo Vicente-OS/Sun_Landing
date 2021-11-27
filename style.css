@@ -65,7 +65,7 @@
 
 .section1, .section2 {
     display: flex;
-    height: 350px;
+    height: 700px;
 }
 
 .section1 img {
@@ -204,7 +204,7 @@
 }
 
 .footer .logo {
-    color: #207465;
+    color: #2D7465;
 }
 
 .footer-navigation {
