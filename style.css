@@ -229,3 +229,39 @@
 .social-media img {
     padding: 4px;
 }
+
+
+@media (max-width: 575.98px) {
+    .section1 {
+        flex-direction: column;
+        height: auto;
+    }
+    .section1 .left {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .examples {
+        flex-wrap: wrap;
+    }
+
+    .examples div {
+        flex: 0.5;
+        flex-basis: 50%;
+    }
+
+    .section2 {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .clients {
+        flex-direction: column;
+    }
+    .clients .client {
+        margin-top: 50px;
+    }
+    .menu {
+        display: none;
+    }
+}
